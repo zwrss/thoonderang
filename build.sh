@@ -1,4 +1,4 @@
 #!/bin/bash
 
-zip -r thoonderang.zip icons/ src/ manifest.json
+zip -r thoonderang.xpi icons/ src/ manifest.json
 
