@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Thoonderang",
+    "description": "Postpone your e-mails in time.",
+    "version": "1.0",
+    "author": "zwrss",
+    "applications": {
+        "gecko": {
+            "id": "thoonderang@zwrss.pl",
+            "strict_min_version": "78.0"
+        }
+    },
+	"background": {
+		"page": "src/background.html"
+	},
+	"message_display_action": {
+		"default_popup": "src/messageContent.html",
+		"default_title": "Postpone",
+		"default_icon": "icons/thoonderang-32px.png"
+	},
+    "icons": {
+        "64": "icons/thoonderang.png",
+        "32": "icons/thoonderang-32px.png",
+        "16": "icons/thoonderang-16px.png"
+    },
+	"permissions": [
+		"storage",
+		"messagesRead",
+		"messagesMove",
+		"accountsRead",
+		"accountsFolders",
+		"notifications"
+	]
+}
