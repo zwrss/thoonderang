@@ -24,11 +24,12 @@
         "16": "icons/thoonderang-16px.png"
     },
 	"permissions": [
-		"storage",
-		"messagesRead",
-		"messagesMove",
-		"accountsRead",
 		"accountsFolders",
-		"notifications"
+		"accountsRead",
+		"menus",
+		"messagesMove",
+		"messagesRead",
+		"notifications",
+		"storage"
 	]
 }
